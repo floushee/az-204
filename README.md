@@ -6,7 +6,7 @@
 
 ### [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
 
-|Module|State|
+|Module|Learned|
 |---|---|
 |[Choose the best Azure Service to automate business processes](https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes/)| ✅|
 |[Create serverless logic with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/create-serverless-logic-with-azure-functions/)| |
@@ -17,10 +17,6 @@
 |[Develop, test, and deploy an Azure Function with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/develop-test-deploy-azure-functions-with-visual-studio/)| |
 |[Monitor GitHub events by using a webhook with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/monitor-github-events-with-a-function-triggered-by-a-webhook/)| |
 |[Enable automatic updates in a web application using Azure Functions and SignalR Service](https://docs.microsoft.com/en-us/learn/modules/automatic-update-of-a-webapp-using-azure-functions-and-signalr/)| |
-
-
-Create serverless applications
-
 
 ## Study Guides
 - [Study Guide 1](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
