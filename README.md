@@ -2,6 +2,8 @@
 
 [AZ-204](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204)
 
+[Exam Skills Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4oZ7B)
+
 ## Learning Path
 
 ### [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
