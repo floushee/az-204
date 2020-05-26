@@ -24,7 +24,7 @@
 ### [Work with relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/)
 |Module|Learned|
 |---|---|
-|[Provision an Azure SQL database to store application data](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)|||
+|[Provision an Azure SQL database to store application data](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)||✅|
 |[Create an Azure Database for PostgreSQL server](https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/)|||
 |[Scale multiple Azure SQL Databases with SQL elastic pools](https://docs.microsoft.com/en-us/learn/modules/scale-sql-databases-elastic-pools/)|||
 |[Secure your Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/)|||
