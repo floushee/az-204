@@ -19,21 +19,16 @@
 |[Develop, test, and deploy an Azure Function with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/develop-test-deploy-azure-functions-with-visual-studio/)| ✅|
 |[Monitor GitHub events by using a webhook with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/monitor-github-events-with-a-function-triggered-by-a-webhook/)| ✅|
 |[Enable automatic updates in a web application using Azure Functions and SignalR Service](https://docs.microsoft.com/en-us/learn/modules/automatic-update-of-a-webapp-using-azure-functions-and-signalr/)| ✅|
-|[Expose multiple Azure Function apps as a consistent API by using Azure API Management](https://docs.microsoft.com/en-us/learn/modules/build-serverless-api-with-functions-api-management/)| |
+|[Expose multiple Azure Function apps as a consistent API by using Azure API Management](https://docs.microsoft.com/en-us/learn/modules/build-serverless-api-with-functions-api-management/)|✅ |
 
 ### [Work with relational data in Azure](https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/)
 |Module|Learned|
 |---|---|
-|[Provision an Azure SQL database to store application data
-](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)|||
-|[Create an Azure Database for PostgreSQL server
-](https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/)|||
-|[Scale multiple Azure SQL Databases with SQL elastic pools
-](https://docs.microsoft.com/en-us/learn/modules/scale-sql-databases-elastic-pools/)|||
-|[Secure your Azure SQL Database
-](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/)|||
-|[Develop and configure an ASP.NET application that queries an Azure SQL database
-](https://docs.microsoft.com/en-us/learn/modules/develop-app-that-queries-azure-sql/)|||
+|[Provision an Azure SQL database to store application data](https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/)|||
+|[Create an Azure Database for PostgreSQL server](https://docs.microsoft.com/en-us/learn/modules/create-azure-db-for-postgresql-server/)|||
+|[Scale multiple Azure SQL Databases with SQL elastic pools](https://docs.microsoft.com/en-us/learn/modules/scale-sql-databases-elastic-pools/)|||
+|[Secure your Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/)|||
+|[Develop and configure an ASP.NET application that queries an Azure SQL database](https://docs.microsoft.com/en-us/learn/modules/develop-app-that-queries-azure-sql/)|||
 
 ## Study Guides
 - [Study Guide 1](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
