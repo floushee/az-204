@@ -30,6 +30,9 @@
 |[Secure your Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/)||
 |[Develop and configure an ASP.NET application that queries an Azure SQL database](https://docs.microsoft.com/en-us/learn/modules/develop-app-that-queries-azure-sql/)||
 
+## Video Courses
+[AZ-203 Developing Solutions](https://learning.oreilly.com/videos/az-203-developing-solutions/9781838989293)
+
 ## Study Guides
 - [Study Guide 1](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
 - [Study Guide 2](https://ravikirans.com/az-204-azure-exam-study-guide/)
