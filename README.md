@@ -4,7 +4,7 @@
 
 [Exam Skills Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4oZ7B)
 
-## Learning Path
+## Learning Paths
 
 ### [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
 
