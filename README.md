@@ -32,6 +32,7 @@
 
 ## Video Courses
 [AZ-203 Developing Solutions](https://learning.oreilly.com/videos/az-203-developing-solutions/9781838989293)
+This video course also exists on [Udemy](https://www.udemy.com/course/70532-azure/). In the end it was not worth the time for me. To basic. It also did not feel well prepared to me.
 
 ## Study Guides
 - [Study Guide 1](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
