@@ -33,14 +33,10 @@
 ### [Deploy a website with Azure virtual machines](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/)
 |Module|Learned|
 |---|---|
-|[Introduction to Azure virtual machines
-](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/)||
-|[Create a Linux virtual machine in Azure
-](https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/)||
-|[Create a Windows virtual machine in Azure
-](https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/)||
-|[Build and run a web application with the MEAN stack on an Azure Linux virtual machine
-](https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/)||
+|[Introduction to Azure virtual machines](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/)||
+|[Create a Linux virtual machine in Azure](https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/)||
+|[Create a Windows virtual machine in Azure](https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/)||
+|[Build and run a web application with the MEAN stack on an Azure Linux virtual machine](https://docs.microsoft.com/en-us/learn/modules/build-a-web-app-with-mean-on-a-linux-vm/)||
 
 ## Video Courses
 [AZ-203 Developing Solutions](https://learning.oreilly.com/videos/az-203-developing-solutions/9781838989293)
