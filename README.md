@@ -4,6 +4,8 @@
 
 [Exam Skills Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4oZ7B)
 
+[AZ 203 vs AZ 204](https://dotnetdev.me/az-203-vs-az-204/)
+
 ## Learning Paths
 
 ### [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
