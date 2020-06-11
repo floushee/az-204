@@ -44,9 +44,9 @@
 ### [Deploy a website to Azure with Azure App Service](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-app-service/)
 |Module|Learned|
 |---|---|
-|[Prepare your development environment for Azure development](https://docs.microsoft.com/en-us/learn/modules/prepare-your-dev-environment-for-azure-development/)||
-|[Host a web application with Azure App service](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/)||
-|[Publish a web app to Azure with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/publish-azure-web-app-with-visual-studio/)||
+|[Prepare your development environment for Azure development](https://docs.microsoft.com/en-us/learn/modules/prepare-your-dev-environment-for-azure-development/)|✅|
+|[Host a web application with Azure App service](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/)|✅|
+|[Publish a web app to Azure with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/publish-azure-web-app-with-visual-studio/)|✅|
 |[Stage a web app deployment for testing and rollback by using App Service deployment slots](https://docs.microsoft.com/en-us/learn/modules/stage-deploy-app-service-deployment-slots/)||
 |[Scale an App Service web app to efficiently meet demand with App Service scale up and scale out](https://docs.microsoft.com/en-us/learn/modules/app-service-scale-up-scale-out/)||
 |[Deploy and run a containerized web app with Azure App Service](https://docs.microsoft.com/en-us/learn/modules/deploy-run-container-app-service/)||
