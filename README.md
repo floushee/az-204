@@ -59,6 +59,14 @@
 |[Communicate between applications with Azure Queue storage](https://docs.microsoft.com/en-us/learn/modules/communicate-between-apps-with-azure-queue-storage/)||
 |[Enable reliable messaging for Big Data applications using Azure Event Hubs](https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs/)||
 
+### [Store data in Azure](https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/)
+|---|---|
+|[Choose a data storage approach in Azure](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/)||
+|[Create an Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/)||
+|[Connect an app to Azure Storage](https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/)||
+|[Secure your Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/)||
+|[Store application data with Azure Blob storage](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/)||
+
 
 ## Video Courses
 [AZ-203 Developing Solutions](https://learning.oreilly.com/videos/az-203-developing-solutions/9781838989293)
