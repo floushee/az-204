@@ -1,0 +1,15 @@
+{
+  "name": "azure-service-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "send": "node send.js",
+    "receive": "node receive.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^1.1.8"
+  }
+}
