@@ -60,6 +60,7 @@
 |[Enable reliable messaging for Big Data applications using Azure Event Hubs](https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs/)||
 
 ### [Store data in Azure](https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/)
+|Module|Learned|
 |---|---|
 |[Choose a data storage approach in Azure](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/)||
 |[Create an Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/)||
