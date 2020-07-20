@@ -1,5 +1,5 @@
 const { QueueServiceClient } = require("@azure/storage-queue");
-const connectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=flousheestorage;AccountKey=OhvBJw2wmlEv10lioglcV4XRdzgrbZGOUyY2JzlP5zyfCVFuY/zM7UgKZfPxAh82gIB6diA2x4FwFAZALJGkcg==";
+const connectionString = "";
 
 const queueServiceClient = QueueServiceClient.fromConnectionString(connectionString);
 const queueName = `floushee`;
