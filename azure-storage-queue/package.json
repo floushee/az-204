@@ -1,0 +1,14 @@
+{
+  "name": "azure-storage-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-queue": "^12.1.0-preview.1"
+  }
+}
