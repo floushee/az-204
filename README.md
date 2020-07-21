@@ -62,11 +62,32 @@
 ### [Store data in Azure](https://docs.microsoft.com/en-us/learn/paths/store-data-in-azure/)
 |Module|Learned|
 |---|---|
-|[Choose a data storage approach in Azure](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/)|✅|
-|[Create an Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/)|✅|
-|[Connect an app to Azure Storage](https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/)|✅|
+|[Choose a data storage approach in Azure](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/)||
+|[Create an Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/)||
+|[Connect an app to Azure Storage](https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/)||
+|[Secure your Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/)||
+|[Store application data with Azure Blob storage](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/)||
+
+### [Manage resources in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-resources-in-azure/)
+|Module|Learned|
+|---|---|
+|[Align requirements with cloud types and service models in Azure](https://docs.microsoft.com/en-us/learn/modules/align-requirements-in-azure/)||
+|[Control Azure services with the CLI](https://docs.microsoft.com/en-us/learn/modules/control-azure-services-with-cli/)||
+|[Automate Azure tasks using scripts with PowerShell](https://docs.microsoft.com/en-us/learn/modules/automate-azure-tasks-with-powershell/)||
+|[Predict costs and optimize spending for Azure](https://docs.microsoft.com/en-us/learn/modules/predict-costs-and-optimize-spending/)||
+|[Control and organize Azure resources with Azure Resource Manager](https://docs.microsoft.com/en-us/learn/modules/control-and-organize-with-azure-resource-manager/)||
+|[Move Azure resources to another resource group](https://docs.microsoft.com/en-us/learn/modules/move-azure-resources-another-resource-group/)||
+
+### [Secure your cloud data](https://docs.microsoft.com/en-us/learn/paths/secure-your-cloud-data/)
+|Module|Learned|
+|---|---|
+|[Security, responsibility, and trust in Azure](https://docs.microsoft.com/en-us/learn/modules/intro-to-security-in-azure/)||
+|[Top 5 security items to consider before pushing to production](https://docs.microsoft.com/en-us/learn/modules/top-5-security-items-to-consider/)||
+|[Configure security policies to manage data](https://docs.microsoft.com/en-us/learn/modules/configure-security-policies-to-manage-data/)||
 |[Secure your Azure Storage account](https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/)|✅|
-|[Store application data with Azure Blob storage](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/)|✅|
+|[Configure and manage secrets in Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/configure-and-manage-azure-key-vault/)||
+|[Secure your Azure resources with role-based access control (RBAC)](https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-rbac/)||
+|[Secure your Azure SQL Database](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/)|✅|
 
 
 ## Video Courses
