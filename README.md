@@ -94,6 +94,8 @@
 [AZ-203 Developing Solutions](https://learning.oreilly.com/videos/az-203-developing-solutions/9781838989293)
 This video course also exists on [Udemy](https://www.udemy.com/course/70532-azure/). In the end it was not worth the time for me. To basic. It also did not feel well prepared to me.
 
+[Cloud Academy - AZ 204 Exam Preparation](https://cloudacademy.com/learning-paths/az-204-exam-preparation-developing-solutions-for-microsoft-azure-1208/)
+
 ## Books
 [Exam Ref AZ-203 Developing Solutions for Microsoft Azure](https://www.amazon.de/Santiago-Fern%C3%A1ndez-Mu%C3%B1oz-ebook/dp/B07YVNL121/ref=sr_1_3?dchild=1&keywords=developing+solutions+for+microsoft+azure&qid=1590916203&quartzVehicle=815-903&replacementKeywords=developing+solutions+for+microsoft&sr=8-3)
 
