@@ -1,0 +1,182 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dropbox_1_Connection_Name": {
+      "type": "string",
+      "defaultValue": "dropbox"
+    },
+    "sql_1_Connection_Name": {
+      "type": "string",
+      "defaultValue": "sql"
+    },
+    "LogicAppLocation": {
+      "type": "string",
+      "minLength": 1,
+      "allowedValues": [
+        "[resourceGroup().location]",
+        "eastasia",
+        "southeastasia",
+        "centralus",
+        "eastus",
+        "eastus2",
+        "westus",
+        "northcentralus",
+        "southcentralus",
+        "northeurope",
+        "westeurope",
+        "japanwest",
+        "japaneast",
+        "brazilsouth",
+        "australiaeast",
+        "australiasoutheast",
+        "southindia",
+        "centralindia",
+        "westindia",
+        "canadacentral",
+        "canadaeast",
+        "uksouth",
+        "ukwest",
+        "westcentralus",
+        "westus2"
+      ],
+      "defaultValue": "westus"
+    },
+    "clientHTTPEndpointPerEnv": {
+      "type": "string",
+      "defaultValue": "https://httpstat.us/500"
+    }
+  },
+  "variables": {},
+  "resources": [
+    {
+      "properties": {
+        "state": "Enabled",
+        "definition": {
+          "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+          "actions": {
+            "Create_file": {
+              "type": "ApiConnection",
+              "inputs": {
+                "host": {
+                  "connection": {
+                    "name": "@parameters('$connections')['dropbox']['connectionId']"
+                  }
+                },
+                "method": "post",
+                "body": "Hi",
+                "path": "/datasets/default/files",
+                "queries": {
+                  "folderPath": "/apps",
+                  "name": "Test.txt",
+                  "queryParametersSingleEncoded": true
+                }
+              },
+              "runAfter": {
+                "Execute_stored_procedure": [
+                  "Succeeded"
+                ]
+              }
+            },
+            "Execute_stored_procedure": {
+              "runAfter": {
+                "HTTP": [
+                  "Succeeded"
+                ]
+              },
+              "type": "ApiConnection",
+              "inputs": {
+                "host": {
+                  "connection": {
+                    "name": "@parameters('$connections')['sql']['connectionId']"
+                  }
+                },
+                "method": "post",
+                "path": "/datasets/default/procedures/@{encodeURIComponent(encodeURIComponent('[dbo].[Insert_CustomerDetails]'))}"
+              }
+            },
+            "HTTP": {
+              "type": "Http",
+              "inputs": {
+                "method": "POST",
+                "uri": "@{parameters('clientHTTPEndpoint')}"
+              },
+              "runAfter": {}
+            }
+          },
+            "parameters": {
+              "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+              },
+                "clientHTTPEndpoint": {
+                  "type": "String"
+                }
+            },
+            "triggers": {
+              "Recurrence": {
+                "type": "Recurrence",
+                "recurrence": {
+                  "frequency": "Day",
+                  "interval": 1
+                }
+              }
+            },
+            "contentVersion": "1.0.0.0",
+            "outputs": {}
+          },
+          "parameters": {
+            "$connections": {
+              "value": {
+                "dropbox": {
+                  "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/', 'dropbox')]",
+                  "connectionId": "[resourceId('Microsoft.Web/connections', parameters('dropbox_1_Connection_Name'))]",
+                  "connectionName": "[parameters('dropbox_1_Connection_Name')]"
+                },
+                "sql": {
+                  "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/', 'sql')]",
+                  "connectionId": "[resourceId('Microsoft.Web/connections', parameters('sql_1_Connection_Name'))]",
+                  "connectionName": "[parameters('sql_1_Connection_Name')]"
+                }
+              }
+            },
+              "clientHTTPEndpoint": {
+                "value": "[parameters('clientHTTPEndpointPerEnv')]"
+              }
+          }
+      },
+      "name": "PollWebsites",
+      "type": "Microsoft.Logic/workflows",
+      "location": "[parameters('LogicAppLocation')]",
+      "tags": {},
+      "apiVersion": "2016-06-01",
+      "dependsOn": [
+        "[resourceId('Microsoft.Web/connections', parameters('dropbox_1_Connection_Name'))]",
+        "[resourceId('Microsoft.Web/connections', parameters('sql_1_Connection_Name'))]"
+      ]
+    },
+    {
+      "type": "MICROSOFT.WEB/CONNECTIONS",
+      "apiVersion": "2016-06-01",
+      "name": "[parameters('dropbox_1_Connection_Name')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "api": {
+          "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/', 'dropbox')]"
+        }
+      }
+    },
+    {
+      "type": "MICROSOFT.WEB/CONNECTIONS",
+      "apiVersion": "2016-06-01",
+      "name": "[parameters('sql_1_Connection_Name')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "api": {
+          "id": "[concat(subscription().id, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/', 'sql')]"
+        }
+      }
+    }
+  ],
+  "outputs": {}
+}

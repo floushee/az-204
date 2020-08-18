@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sql_1_Connection_Name": {
+      "value": "sqlProd"
+    },
+    "dropbox_1_Connection_Name": {
+      "value": "dropBoxProd"
+    },
+    "LogicAppLocation": {
+      "value": "eastus2"
+    },
+    "clientHTTPEndpointPerEnv": {
+      "value": "https://httpstat.us/202"
+    }
+  }
+}
