@@ -1,12 +1,14 @@
 # AZ 204
 
-[AZ-204](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204)
+Basic information on the exam can be found [here](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204).
 
-[Exam Skills Outline](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4oZ7B)
+This [pdf](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4oZ7B) contains the details of the certification scope.
 
-[AZ 203 vs AZ 204](https://dotnetdev.me/az-203-vs-az-204/)
+Some detailse on the differences between [AZ 203 vs AZ 204](https://dotnetdev.me/az-203-vs-az-204/)
 
 ## Learning Paths
+
+I really loved Microsoft's learning paths. Perfect to kickstart learning and they always contain labs in prepared sandbox (sadly most stuff is just copy & paste, but you get a feeling for Azure Portal and Azure CLI).
 
 ### [Create serverless applications](https://docs.microsoft.com/en-us/learn/paths/create-serverless-applications/)
 
@@ -95,9 +97,14 @@
 This video course also exists on [Udemy](https://www.udemy.com/course/70532-azure/). In the end it was not worth the time for me. To basic. It also did not feel well prepared to me.
 
 [Cloud Academy - AZ 204 Exam Preparation](https://cloudacademy.com/learning-paths/az-204-exam-preparation-developing-solutions-for-microsoft-azure-1208/)
+I tried the trial version of cloudacademy.com. The seven days should be enough to finish this course. It looks cool because it contains several labs, which unfortunately are not part ot the trial version.
+
+[Free Pluralsight Microsoft courses](https://app.pluralsight.com/paths/certificate/developing-solutions-for-microsoft-azure-az-203)
+Microsoft and pluralsights.com started a partnership where you can consume Microsoft related courses for free.
 
 ## Books
 [Exam Ref AZ-203 Developing Solutions for Microsoft Azure](https://www.amazon.de/Santiago-Fern%C3%A1ndez-Mu%C3%B1oz-ebook/dp/B07YVNL121/ref=sr_1_3?dchild=1&keywords=developing+solutions+for+microsoft+azure&qid=1590916203&quartzVehicle=815-903&replacementKeywords=developing+solutions+for+microsoft&sr=8-3)
+This book is hardcore. I would not recommend to use it when you start learning. You will get most out of this book if you are already familiar with the services. But its cool to fill the gaps and you will definitely learn something new. 
 
 ## Study Guides
 - [Study Guide 1](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
