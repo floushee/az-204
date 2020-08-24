@@ -1,7 +1,13 @@
 ﻿# Example Code Only
 # Provided as-is
 
-param([string]$subscriptionName = "Your Sponsorship", [string]$deploymentType = "Prod", [string]$location = "eastus2", [string]$resourceGroupName="WBC_Production", [string]$localPath="C:\Deployments" )
+param(
+    [string]$subscriptionName = "Your Sponsorship", 
+    [string]$deploymentType = "Prod", 
+    [string]$location = "eastus2", 
+    [string]$resourceGroupName="WBC_Production", 
+    [string]$localPath="C:\Deployments"
+)
 
 Login-AzureRmAccount 
 
